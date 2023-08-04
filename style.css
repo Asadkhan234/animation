@@ -1,0 +1,123 @@
+.asad{
+
+    width: 200px;
+    height: 200px;
+    background-color:rgb(21, 255, 0);
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -150px;
+    font-size: 30px;
+    line-height: 200px;
+    animation: asad 2s ease-in-out 3s infinite alternate ;
+    /* font-family: 'Bungee Spice', cursive; */
+}
+
+
+
+@keyframes asad{
+   0%{border-radius: 0%; color: rgb(24, 209, 18);background-color: aqua;}
+     
+    100%{border-radius: 100%;color:chartreuse;background-color:yellow;transform-origin: center;}
+    33%{color: brown;background-color:deeppink;}
+}
+
+
+.asad:hover{
+    color: black;
+    background-color: white;
+}
+.saad{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    z-index:-1;
+    animation: saad 2s linear 3s infinite alternate ;
+    margin: -20px;
+}
+
+@keyframes saad{
+    0%{border-radius: 0%;background-color: blueviolet;transform: rotate(100deg);}
+    100%{ border-radius: 100%;}
+    
+}
+
+
+.saif{
+    
+        width: 150px;
+        height: 150px;
+        background-color: yellowgreen;
+        position: absolute;
+        top: 0;
+       right: 0;
+        z-index:-1;
+        animation: saif 2s linear 3s infinite alternate;
+        margin: 70px;
+}
+
+@keyframes saif{
+    0%{border-radius: 0%; }
+   100%{ border-radius: 100%;transform: rotate(100deg);}
+   
+    
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.anas{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(153, 13, 218);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: -1;
+    margin: -30px;
+    animation: anas 2s linear 3s infinite  alternate ;
+}
+
+
+@keyframes anas{
+    0%{border-radius: 0%; background-color: whitesmoke;transform: rotate(100deg); }
+    100%{border-radius: 100%;background-color: plum;}
+}
+
+
+
+
+
+
+
+
+
+
+.san{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(53, 43, 187) ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin: -25px;
+    animation: san 2s linear 3s infinite alternate ;
+}
+
+@keyframes san{
+    0%{border-radius: 0%;background-color: gold; }
+     100%{ border-radius: 100% ; background-color: red; transform: rotate(100deg);}  
+   
+}
+
+h1{
+    text-align: center;
+   margin-right: 60px;
+}
